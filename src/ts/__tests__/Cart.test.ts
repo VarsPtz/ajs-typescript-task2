@@ -24,6 +24,7 @@ test('Добавить два одинаковых товара -> success', () 
   cart.add(new Movie(2000, 'Avengers', 'Joss Whedon', 1000, 137));
 
   expect(cart.items.length).toBe(1);
+  expect(cart.getSum()).toBe(1000);
 });
 
 test('Получить сумму без учёта скидки', () => {

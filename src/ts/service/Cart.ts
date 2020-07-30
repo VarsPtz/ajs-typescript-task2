@@ -7,12 +7,6 @@ export default class Cart {
         const idItem: number = this._items.findIndex(items => items.id === item.id);
         if (idItem === -1) {
             this._items.push(item);
-        } else {
-            let amountAccumulator = this._items[idItem].amount;
-            if (typeof amountAccumulator === 'number' && typeof item.amount === 'number') {
-                amountAccumulator += item.amount;
-                this._items[idItem].amount = amountAccumulator;
-            }
         }
     }
 
