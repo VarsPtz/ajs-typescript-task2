@@ -1,4 +1,4 @@
-
+[![Build status](https://ci.appveyor.com/api/projects/status/nanptet69vacht5x?svg=true)](https://ci.appveyor.com/project/VarsPtz/ajs-typescript-task2)
 # Домашнее задание к лекции «TypeScript»
 
 **Важно**: все задачи допустимо выполнять в одном GitHub репозитории.
